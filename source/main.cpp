@@ -16,9 +16,9 @@
 
 #include <events/mbed_events.h>
 #include <mbed.h>
-#include "ble\BLE.h"
-#include "ble\DiscoveredCharacteristic.h"
-#include "ble\DiscoveredService.h"
+#include "ble/BLE.h"
+#include "ble/DiscoveredCharacteristic.h"
+#include "ble/DiscoveredService.h"
 
 DigitalOut alivenessLED(LED1, 1);
 DigitalOut led2(LED2);
